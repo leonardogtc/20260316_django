@@ -175,6 +175,11 @@ h6 {
   padding-bottom: 2rem;
 }
 
+.recipe-title-container a {
+  text-decoration: none;
+  color: var(--color-primary-dark);
+}
+
 .recipe-author {
   padding: 0 var(--spacing-gutter-medium);
 }
@@ -234,6 +239,7 @@ h6 {
   filter: brightness(2);
 }
 
+
 .main-content-detail .recipe-list-item {
   max-width: 84rem;
   margin: 0 auto;
@@ -245,8 +251,7 @@ h6 {
 }
 
 .preparation-steps {
-  list-style: decimal;
-  padding-left: 2rem;
+  padding: var(--spacing-gutter-medium);
 }
 
 .main-footer {
