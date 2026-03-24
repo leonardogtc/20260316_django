@@ -244,6 +244,11 @@ h6 {
   box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+.preparation-steps {
+  list-style: decimal;
+  padding-left: 2rem;
+}
+
 .main-footer {
   display: flex;
   align-items: center;
